@@ -1,0 +1,270 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      8101,        261]
+NotebookOptionsPosition[      7659,        243]
+NotebookOutlinePosition[      8005,        258]
+CellTagsIndexPosition[      7962,        255]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ FormBox[
+  TagBox[GridBox[{
+     {"\[Piecewise]", GridBox[{
+        {
+         RowBox[{
+          SubscriptBox["d", "1"], "=", 
+          RowBox[{
+           SubscriptBox["d", "2"], "+", "trans"}]}], "\[Placeholder]"},
+        {
+         RowBox[{
+          FractionBox[
+           SubscriptBox["s", "0"], 
+           SubscriptBox["s", "1"]], "=", 
+          RowBox[{
+           FractionBox[
+            SubscriptBox["d", "1"], "f"], "=", 
+           FractionBox[
+            RowBox[{
+             SubscriptBox["d", "2"], "+", "trans"}], "f"]}]}], 
+         "\[Placeholder]"},
+        {
+         RowBox[{
+          FractionBox[
+           SubscriptBox["s", "0"], 
+           SubscriptBox["s", "2"]], "=", 
+          FractionBox[
+           SubscriptBox["d", "2"], "f"]}], "\[Placeholder]"}
+       },
+       AllowedDimensions->{2, Automatic},
+       Editable->True,
+       GridBoxAlignment->{
+        "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}},
+          "RowsIndexed" -> {}},
+       GridBoxItemSize->{
+        "Columns" -> {{Automatic}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+         "RowsIndexed" -> {}},
+       GridBoxSpacings->{"Columns" -> {
+           Offset[0.27999999999999997`], {
+            Offset[0.84]}, 
+           Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+           Offset[0.2], {
+            Offset[0.4]}, 
+           Offset[0.2]}, "RowsIndexed" -> {}},
+       Selectable->True]}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxItemSize->{
+     "Columns" -> {{Automatic}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.35]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}],
+   "Piecewise",
+   DeleteWithContents->True,
+   Editable->False,
+   SelectWithContents->True,
+   Selectable->False], TraditionalForm], "\[IndentingNewLine]", 
+ FormBox[
+  RowBox[{
+   SubscriptBox["s", "0"], "=", 
+   FractionBox["trans", 
+    RowBox[{"f", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       FractionBox["1", 
+        SubscriptBox["s", "m1"]], "-", 
+       FractionBox["1", 
+        SubscriptBox["s", "m2"]]}], ")"}]}]]}], TraditionalForm]}], "Input",
+ CellChangeTimes->{{3.6269748857569637`*^9, 3.6269749139600863`*^9}}],
+
+Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   FractionBox[
+    SubscriptBox["s", "p"], 
+    SubscriptBox["w", "p"]], "=", 
+   FractionBox[
+    SubscriptBox["s", "m"], 
+    SubscriptBox["w", "m"]]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{
+   SubscriptBox["s", "0"], "=", 
+   FractionBox["trans", 
+    RowBox[{"f", 
+     FractionBox[
+      RowBox[{
+       SubscriptBox["w", "p"], " "}], 
+      SubscriptBox["w", "m"]], 
+     RowBox[{"(", 
+      RowBox[{
+       FractionBox["1", 
+        SubscriptBox["s", "p1"]], "-", 
+       FractionBox["1", 
+        SubscriptBox["s", "p2"]]}], ")"}]}]]}], TraditionalForm]}], "Input",
+ CellChangeTimes->{{3.6269740114431963`*^9, 3.626974019611727*^9}, {
+  3.6269742444602213`*^9, 3.626974244803335*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  TagBox[GridBox[{
+     {"\[Piecewise]", GridBox[{
+        {
+         RowBox[{
+          SubscriptBox["h", "1"], "=", "height"}], "\[Placeholder]"},
+        {
+         RowBox[{
+          FractionBox[
+           RowBox[{
+            SubscriptBox["y", "1"], "-", 
+            FractionBox[
+             SubscriptBox["h", "img"], "2"]}], "f"], "=", 
+          FractionBox[
+           SubscriptBox["h", "1"], "dist"]}], "\[Placeholder]"},
+        {
+         RowBox[{
+          FractionBox[
+           RowBox[{
+            FractionBox[
+             SubscriptBox["h", "img"], "2"], "-", 
+            SubscriptBox["y", "2"]}], "f"], "=", 
+          FractionBox[
+           SubscriptBox["h", "2"], "dist"]}], "\[Placeholder]"}
+       },
+       AllowedDimensions->{2, Automatic},
+       Editable->True,
+       GridBoxAlignment->{
+        "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}},
+          "RowsIndexed" -> {}},
+       GridBoxItemSize->{
+        "Columns" -> {{Automatic}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+         "RowsIndexed" -> {}},
+       GridBoxSpacings->{"Columns" -> {
+           Offset[0.27999999999999997`], {
+            Offset[0.84]}, 
+           Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+           Offset[0.2], {
+            Offset[0.4]}, 
+           Offset[0.2]}, "RowsIndexed" -> {}},
+       Selectable->True]}
+    },
+    GridBoxAlignment->{
+     "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+      "RowsIndexed" -> {}},
+    GridBoxItemSize->{
+     "Columns" -> {{Automatic}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+      "RowsIndexed" -> {}},
+    GridBoxSpacings->{"Columns" -> {
+        Offset[0.27999999999999997`], {
+         Offset[0.35]}, 
+        Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+        Offset[0.2], {
+         Offset[0.4]}, 
+        Offset[0.2]}, "RowsIndexed" -> {}}],
+   "Piecewise",
+   DeleteWithContents->True,
+   Editable->False,
+   SelectWithContents->True,
+   Selectable->False], TraditionalForm]], "Input",
+ CellChangeTimes->{{3.6271378694642754`*^9, 3.6271379667447596`*^9}, {
+  3.6271381248072276`*^9, 3.627138138509666*^9}, {3.627138176760491*^9, 
+  3.6271382815708427`*^9}, {3.6271383712582073`*^9, 3.6271384104544744`*^9}, {
+  3.6271384438768167`*^9, 3.6271384629767265`*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"dist", " ", "=", 
+   FractionBox[
+    RowBox[{
+     SubscriptBox["h", "1"], " ", "f"}], 
+    RowBox[{
+     SubscriptBox["y", "1"], "-", 
+     FractionBox[
+      SubscriptBox["h", "img"], "2"]}]]}], TraditionalForm]], "Input",
+ CellChangeTimes->{{3.6271384589313216`*^9, 3.6271384590803366`*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox["h", "2"], "=", 
+   FractionBox[
+    RowBox[{
+     SubscriptBox["h", "1"], " ", 
+     RowBox[{"(", 
+      RowBox[{
+       FractionBox[
+        SubscriptBox["h", "img"], "2"], "-", 
+       SubscriptBox["y", "2"]}], ")"}]}], 
+    RowBox[{
+     SubscriptBox["y", "1"], "-", 
+     FractionBox[
+      SubscriptBox["h", "img"], "2"]}]]}], TraditionalForm]], "Input",
+ CellChangeTimes->{{3.6271385161439147`*^9, 3.6271385605944753`*^9}, {
+  3.6271385974209137`*^9, 3.627138640030182*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"h", "=", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["h", "1"], "+", 
+     SubscriptBox["h", "2"]}], "=", 
+    RowBox[{"height", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       FractionBox[
+        RowBox[{
+         FractionBox[
+          SubscriptBox["h", "img"], "2"], "-", 
+         SubscriptBox["y", "2"]}], 
+        RowBox[{
+         SubscriptBox["y", "1"], "-", 
+         FractionBox[
+          SubscriptBox["h", "img"], "2"]}]], "+", "1"}], ")"}]}]}]}], 
+  TraditionalForm]], "Input",
+ CellChangeTimes->{{3.6271386543511653`*^9, 3.6271387030947533`*^9}}]
+},
+WindowSize->{956, 757},
+WindowMargins->{{Automatic, 103}, {-12, Automatic}},
+FrontEndVersion->"9.0 for Microsoft Windows (32-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 2532, 75, 158, "Input"],
+Cell[3092, 97, 737, 25, 114, "Input"],
+Cell[3832, 124, 2357, 64, 118, "Input"],
+Cell[6192, 190, 330, 10, 63, "Input"],
+Cell[6525, 202, 532, 17, 75, "Input"],
+Cell[7060, 221, 595, 20, 75, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
